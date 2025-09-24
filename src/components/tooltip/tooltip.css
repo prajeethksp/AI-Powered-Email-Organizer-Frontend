@@ -1,0 +1,54 @@
+/*
+Our application is hosted on this domain:
+https://emailorganizersummer2024.com/homepage
+ 
+Team Members:
+Koppula, Sai Prajeeth    UTA ID: 1002160594
+Kouadjo, Cloe            UTA ID: 1001803529
+Le, Yen Duyen            UTA ID: 1001827177
+Khare, Aayush            UTA ID: 1002136939
+Gawali, Nachiket Ramesh  UTA ID: 1002147240
+*/
+
+.tooltip {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.tooltip-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 1.2em;
+}
+
+.tooltip-body {
+  text-align: center;
+}
+
+.rating-buttons {
+  margin: 10px 0;
+}
+
+.thumb-button {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.thumb-button.active {
+  color: blue;
+}
+
+.thumb-button:hover {
+  color: darkblue;
+}

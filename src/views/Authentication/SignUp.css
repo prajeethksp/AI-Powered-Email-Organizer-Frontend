@@ -1,0 +1,113 @@
+/*
+Our application is hosted on this domain:
+https://emailorganizersummer2024.com/homepage
+ 
+Team Members:
+Koppula, Sai Prajeeth    UTA ID: 1002160594
+Kouadjo, Cloe            UTA ID: 1001803529
+Le, Yen Duyen            UTA ID: 1001827177
+Khare, Aayush            UTA ID: 1002136939
+Gawali, Nachiket Ramesh  UTA ID: 1002147240
+*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.signup-form {
+  width: 100%;
+}
+
+.signup-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.btn-primary {
+  width: 50%; /* Adjust width as needed */
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center; /* Center button text */
+}
+
+.btn-primary-wrapper {
+  display: flex;
+  justify-content: center; /* Center button horizontally */
+  width: 100%;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.google-button {
+  width: 100%; /* Ensure button takes full width */
+  padding: 10px;
+  background-color: #db4437; /* Google button color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center; /* Center button text */
+}
+
+.google-button-wrapper {
+  display: flex;
+  justify-content: center; /* Center button horizontally */
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.google-button:hover {
+  background-color: #c23321;
+}
+
+@media (max-width: 768px) {
+  .signup-container {
+    padding: 10px;
+  }
+}

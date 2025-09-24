@@ -1,0 +1,99 @@
+/*
+Our application is hosted on this domain:
+https://emailorganizersummer2024.com/homepage
+ 
+Team Members:
+Koppula, Sai Prajeeth    UTA ID: 1002160594
+Kouadjo, Cloe            UTA ID: 1001803529
+Le, Yen Duyen            UTA ID: 1001827177
+Khare, Aayush            UTA ID: 1002136939
+Gawali, Nachiket Ramesh  UTA ID: 1002147240
+*/
+
+.dashboard-container {
+    display: flex;
+    height: 100%;
+  }
+  
+  .sidebar {
+    flex: 0 0 250px; /* Fixed width sidebar */
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .folder {
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .main-content {
+    flex: 1; /* Take remaining space */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .email-list {
+    flex: 1;
+    overflow-y: auto; /* Enable scrolling if needed */
+    padding: 20px;
+  }
+  
+  .email-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .email-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .email-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .email-timestamp {
+    color: #999;
+  }
+  
+  .email-view {
+    flex: 1;
+    border-left: 1px solid #ccc;
+    overflow-y: auto; /* Enable scrolling if needed */
+    padding: 20px;
+  }
+  
+  .email-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .email-header-details {
+    flex: 1;
+  }
+  
+  .email-header-subject {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .email-header-sender {
+    color: #666;
+  }
+  
+  .email-header-timestamp {
+    color: #999;
+  }
+  
+  .email-body {
+    line-height: 1.6;
+  }
+  /* Add more styling as needed */
+  
