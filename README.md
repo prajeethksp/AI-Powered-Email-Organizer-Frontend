@@ -13,13 +13,13 @@ This project is an Email Organizer application that integrates with the Gmail AP
 
 1. Clone the Repository (FRONT END)
 ```
-git clone https://github.com/CloeKouadjo/emailorganizersummer2024_frontend.git
+git clone https://github.com/prajeethksp/AI-Powered-Email-Organizer-Frontend.git
 cd email-organizer
 ```
 
 2. Clone the Repository (BACK END)
 ```
-git clone https://github.com/CloeKouadjo/emailorganizersummer2024_backend.git
+git clone https://github.com/prajeethksp/AI-Powered-Email-Organizer-Backend.git
 cd email-organizer
 ```
 
